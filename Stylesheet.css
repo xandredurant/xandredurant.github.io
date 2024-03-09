@@ -1,0 +1,261 @@
+/* Styles for headingbar */
+.headingbar {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.landingimg{
+    width: 100%;
+}
+
+nav {
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+
+body{
+    background-color: white;
+    display: inline;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.headingbar img {
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+/* Styles for about section */
+
+.home-1 {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.home-2 {
+    background-color: rgb(241, 238, 238);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.home-1 p,
+.home-2 p {
+    color: black;
+    font-size: 16px;
+    text-align: left; /* Align text to the left */
+}
+
+
+.home-1 h1,
+.home-2 h1{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center; /* Center the heading text */
+}
+
+.about {
+    background-color: rgb(241, 238, 238);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative; /* Make the parent container positioned */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.about img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about p {
+    color: black;
+    font-size: 16px;
+    text-align: left; /* Align text to the left */
+}
+
+
+.about h1 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; /* Center the heading text */
+}
+
+.solutions-1{
+    display: block;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.solutions-2{
+    display: block;
+    background-color: rgb(241, 238, 238);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.solutions-2 img{
+    margin: 10px;
+}
+
+.solutions-1 h1,
+.solutions-2 h1 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.heading{
+    font-size: 30px !important;
+}
+
+.solutions-1 p,
+.solutions-2 p {
+    color: black;
+    font-size: 16px;
+}
+
+/* Styles for solutions */
+.head {
+    color: black;
+    font-size: 20px;
+}
+
+.subhead {
+    color: rgb(63, 61, 61);
+    font-size: 16px;
+}
+
+/* Styles for Optionsbox */
+.optionsinfo {
+    column-gap: 20px;
+}
+
+.Options-body {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #04263E; /* Hide text initially */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: color 0.6s ease; /* Transition the text color */
+    transition: background-color 0.6s ease;
+    height: 100%;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 50%; /* Position the left edge of the line at the horizontal center */
+    height: 100%; /* Set height of the line */
+    border: none;
+    border-left: 1px solid black;
+    transform: translateX(-50%);
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; /* Make the parent container positioned */
+}
+
+.product{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.products img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-height: 200px;
+}
+
+/* Footer */
+.footerclass {
+    background-color: #04263E;
+    color: white;
+    padding: 20px;
+}
+
+.footerclass a {
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.footerclass a:hover{
+    background-color: rgb(0, 255, 0);
+}
+
+.footerclass h1 {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.centerV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hours div {
+    font-weight: bold;
+}
+
+.hours p {
+    margin: 5px 0;
+}
+
+.centerbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 580px) {
+    .headingbar{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headingbar img{
+        margin-left: 0;
+    }
+}

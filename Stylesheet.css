@@ -10,8 +10,16 @@
     margin-left: 0px;
 }
 
+.image-container {
+    max-width: 100%; /* Or any other desired width */
+    max-height: 400px; /* Adjust the maximum height as needed */
+    overflow: hidden; /* Hides content that exceeds the container's dimensions */
+    position: relative; /* Ensures absolutely positioned elements are positioned relative to this container */
+}
+
 .landingimg{
     width: 100%;
+    height: auto;
 }
 
 nav {
@@ -76,9 +84,9 @@ body{
 }
 
 .about {
+    display: block;
     background-color: rgb(241, 238, 238);
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 100%;
 }
@@ -253,6 +261,13 @@ body{
     text-align: center;
 }
 
+.small-img {
+    display: none;
+}
+
+.large-img {
+    display: block;
+}
 
 @media screen and (max-width: 580px) {
     .headingbar{
@@ -263,5 +278,13 @@ body{
 
     .headingbar img{
         margin-left: 0;
+    }
+
+    .large-img {
+        display: none;
+    }
+
+    .small-img {
+        display: block;
     }
 }

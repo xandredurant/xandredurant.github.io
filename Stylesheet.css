@@ -269,6 +269,19 @@ body{
     display: block;
 }
 
+.footerclass img{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+}
+
+.members{
+    height: 300px;
+    width: 200px;
+    border-radius: 100%;
+    border: solid 2px gray;
+}
+
 @media screen and (max-width: 580px) {
     .headingbar{
         justify-content: center;

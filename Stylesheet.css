@@ -83,14 +83,20 @@ body{
     text-align: center; /* Center the heading text */
 }
 
-.about {
+.about-1{
     display: block;
     background-color: rgb(241, 238, 238);
     padding: 20px;
     text-align: center;
     width: 100%;
 }
-
+.about-2{
+    display: block;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
 
 .about-content {
     display: flex;
@@ -112,9 +118,10 @@ body{
 }
 
 
-.about h1 {
+.about-1 h1,
+.about-2 h1{
     color: black;
-    font-size: 24px;
+    font-size: 50px;
     margin-bottom: 10px;
     text-align: center; /* Center the heading text */
 }
@@ -136,6 +143,8 @@ body{
 }
 .solutions-2 img{
     margin: 10px;
+    width: 250px;
+    height: auto;
 }
 
 .solutions-1 h1,
